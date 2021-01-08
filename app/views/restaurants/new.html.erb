@@ -1,0 +1,10 @@
+<h1> All Restaurants </h1>
+
+<%= simple_form_for @restaurant do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :photo, as: :file %>
+    <%= f.submit %>
+<% end %>
+
+<%= alert %>
